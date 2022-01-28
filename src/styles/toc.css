@@ -1,0 +1,170 @@
+/*** the main part***/
+#tableofcontents tr:hover:after {
+	opacity: 1;
+}
+
+#tableofcontents .nofleur:hover:after {
+	opacity: 0;
+}
+
+#tocphotoPane {
+	position: fixed;
+	transition: all 0.5s ease;
+    top:80px;
+	z-index: 1;
+} #tocphotoPane>img {
+	max-width: 100%;
+	max-height: 100%;
+	border: 0.1rem solid #706d69;
+}
+ #tableofcontents tr:after {
+	transition: opacity 0.05s ease-in-out;
+	color: #706d69;
+	font-family: Helvetica, "Nimbus Sans L", "Liberation Sans", Arial, sans-serif;
+	font-size: 1.4rem;
+	content: "☙";
+	position: relative;
+	top: 0.3em;
+	left: 1rem;
+	opacity: 0;
+} td {
+	padding: 0.5rem 0.2rem;
+} #tableofcontents tr {
+	vertical-align: top;
+} #tableofcontents tr td {
+	position: relative;
+} #tableofcontents tr .notWrappingTD:before {
+	content: '&nbsp;';
+	visibility: hidden;
+}
+.notWrappingSpan {
+	position: absolute;
+	left: 1rem;
+	right: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} #tableofcontents tr td:nth-child(2n-1) {
+	text-align: right;
+} .wrappingTD {
+	padding-left: 1rem;
+}
+
+th {
+	font-weight: normal;
+	font-size: 3.5rem;
+	font-variant: small-caps;
+	padding-bottom: 6rem;
+}
+
+.col1 {
+	width: 2rem;
+} .col3 {
+	width: 33%;
+}
+
+.c {
+	font-size: 1rem;
+}
+
+.notReady:after {
+	content: " (not in collection)";
+}
+
+.meta {
+	font-weight: bold;
+}
+
+.sec {
+	text-align: center !important;
+	font-variant: small-caps;
+	padding: 0.5rem 0;
+}
+
+tr:nth-of-type(3)>td {
+	padding-top: 0;
+}
+
+input[type=checkbox]:checked ~ #tocphotoPane {
+	top: 1rem;
+	left: 1rem;
+	right: 1rem;
+	bottom: 3rem;
+}
+
+label>img {
+	cursor: pointer;
+}
+
+#tpbkg {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+	background: url("./bkg.jpg");
+	pointer-events: none;
+	transition: all 0.5s ease;
+	z-index: 1;
+} input[type=checkbox]:checked ~ #tpbkg {
+	opacity: 1;
+}
+/*****/
+
+.toc_container{
+    display: flex ;
+    flex-wrap: wrap;
+}
+.table_content{
+   flex: 1 1 40%;
+   padding-top: 50px;
+   padding-left:10% ;
+}
+.milano_cover{
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+}
+.milano_photo{
+  width:600px;
+  height: 600px;
+  border-radius: 2px;
+}
+.alasatir_footer{
+    text-align: center;
+    font-weight: bold;
+}
+
+ #foreward_button{
+  border:2px solid black;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: bold;
+  color: rgb(214, 131, 35);
+  text-align: center;
+  padding: 4px;
+  padding-inline:12px;
+  padding-bottom: 8px;
+  position: relative;
+  right: 50px;
+  bottom:20px;
+  background-color: antiquewhite;
+}
+#foreward_button:hover{
+ background-color: rgb(252, 206, 153);
+ color: rgb(252, 252, 252);
+}
+
+.bibilio_link {
+    text-align: center;
+    position: relative;
+    bottom:10px;
+}
+.bibilio_link span{
+    padding-left: 95px;
+     font-weight: bold;
+}
+.bibilio_link span:hover{
+    text-decoration: underline;
+}

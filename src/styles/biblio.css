@@ -1,0 +1,106 @@
+
+article {
+	width: 30rem;
+	max-width: 100%;
+	padding: 1rem;
+}
+
+h1, h2 {
+	font-variant: small-caps;
+}
+
+h1 {
+	color: #89392d;
+	font-size: 3rem;
+	text-align: center;
+	margin-bottom: -1rem;
+}
+
+h2 {
+	display: inline-block;
+	text-align: left;
+	font-size: 1.5rem;
+	padding: 1rem;
+	margin: 1rem -1rem;
+	border-top: 0.1rem solid #706d69;
+	border-bottom: 0.1rem solid #706d69;
+}
+
+.notincollection {
+	color: #b5afa8;
+}
+.entry_click{
+	font-weight: bold;
+	color: #b17970;
+	position: relative;
+	left:50px;
+}
+/*
+/****fix this*
+@keyframes fadeOut { 0% { opacity:1; } 100% { opacity:0; } }
+@-webkit-keyframes fadeOUt { 0% { opacity:1; } 100% { opacity:0; } }
+@-moz-keyframes fadeOut { 0% { opacity:1; } 100% { opacity:0; } }
+
+
+p:first-of-type {
+	-webkit-animation:fadeOut ease 1;
+	-moz-animation:fadeOut ease 1;
+	animation:fadeOut ease 1;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+
+	animation-duration: 0.500ms;
+
+	animation-delay: 1s;
+}
+*/
+.notincollection>.hashtag>a, dt>a {
+	color: #706D69;
+}
+
+dd,
+dt,
+input {
+	display: none;
+}
+
+dl {
+	cursor: pointer;
+}
+
+.dl_hide>:first-child,
+input[type=checkbox]:checked ~ .dl_hide>:nth-child(n+1),
+.dl_hide:target>:nth-child(n+1) {
+	display: block;
+}
+
+dl {
+	margin: 3rem 1rem;
+} dt, dd {
+	margin: 1rem 0;
+} dd {
+	margin-left: 3rem;
+}
+
+dl:target:before {
+	content: "❧";
+	font-size: 1.4rem;
+	font-family: Helvetica, "Nimbus Sans L", "Liberation Sans", Arial, sans-serif;
+	position: absolute;
+	right: calc(100% + 1.5rem);
+}
+
+.method {
+	font-style: italic;
+}
+
+.hashtag {
+	position: relative;
+}
+.hashtag:before {
+	content: "#";
+	position: absolute;
+	right: calc(100% + 0.1rem);
+}

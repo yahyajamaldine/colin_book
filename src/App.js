@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
+import Alastair from './components/alastair';
+import TOC from './components/toc';
+import Bibliography from './components/bibliography';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Routes>
+      <Route index element={<Alastair/>}/>
+      <Route path='/toc' element={<TOC/>} />
+      <Route path='/toc/bibilio' element={<Bibliography/>} />
+      </Routes>
+    </Router>
+    );
 }
 
 export default App;
