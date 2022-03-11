@@ -1,0 +1,40 @@
+
+         body{
+            padding: 0;
+            margin: 0;
+            background-color: #fff5eb;
+        }
+        .container{
+            height: 100%;
+            width: 100%;
+        }
+        .container >*{
+            padding-inline: 50px;
+            padding-top: 40px;
+        }
+        .GalleryContainer{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        
+        .MediaContainer img{
+            width: 400px;
+            height: 600px;
+            border-radius: 10px;
+            margin: 5px;
+        }
+        .image_desc{
+            padding-left: 5px;
+        }
+        .dictionary p{
+            font-weight: bold;
+           font-size:1.75rem;
+        }
+        .dictionary_list li{
+            font-size: 1.25rem;
+            margin: 1rem;
+        }
+        blockquote{
+            font-size: 20px;
+        }

@@ -22,31 +22,31 @@ export default function TOC(){
 	</tr>
 	<tr>
 	<td className= 'wrappingTD'><span className='wrappingSpan'>1920</span></td>
-	<td colspan = '2'><a href = '?collection=valley'><span className='notWrappingSpan'>The Burning Valley: Poems by Alastair</span></a></td>
+	<td colspan = '2'><Link to="/valley"><span className='notWrappingSpan'>The Burning Valley: Poems by Alastair</span></Link></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'><span className='c'>c</span>1929</span></td>
-		<td colspan = '2'><a href = '?collection=caressepoems'><span className='notWrappingSpan'>Poems for Caresse Crosby</span></a></td>
+		<td colspan = '2'><Link to="/caressepoems"><span className='notWrappingSpan'>Poems for Caresse Crosby</span></Link></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1923</span></td>
-		<td colspan = '2'><a href = '?collection=dandy'><span className='notWrappingSpan'>The Transformations of the Dandy</span></a></td>
+		<td colspan = '2'><Link to="/dandy"><span className='notWrappingSpan'>The Transformations of the Dandy</span></Link></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1920</span></td>
-		<td colspan = '2'><a href = '?collection=otherpoetry'><span className='notWrappingSpan'>Other poetry</span></a></td>
+		<td colspan = '2'><Link  to="/otherpoetry"><span className='notWrappingSpan'>Other poetry</span></Link></td>
 	</tr>
 	<tr className= 'nofleur'>
 		<td colspan = '3' className= 'sec'>Art</td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1911</span></td>
-		<td><a href = '?collection=peau'><span className='notWrappingSpan'>La Peau de Chagrin</span></a></td>
+		<td><Link to="/peau"><span className='notWrappingSpan'>La Peau de Chagrin</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Honoré de Balzac</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'><span className='c'>c</span>1913</span></td>
-		<td colspan = '2'><a href = '?collection=gods'><span className='notWrappingSpan'>Gods</span></a></td>
+		<td colspan = '2'><Link to="/gods"><span className='notWrappingSpan'>Gods</span></Link></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'><span className='c'>c</span>1914</span></td>
@@ -238,7 +238,7 @@ export default function TOC(){
 	<tr className= 'nofleur'></tr>
 	<tr className= 'nofleur'>
 		<td className= 'wrappingTD'><span className='wrappingSpan'></span></td>
-		<td className="bibilio_link"><Link to='./bibilio'><span className='notWrappingSpan'><span>Bibliography</span></span></Link></td>
+		<td className="bibilio_link"><Link to='/bibilio'><span className='notWrappingSpan'><span>Bibliography</span></span></Link></td>
 	</tr>
     </table>
     </div>
