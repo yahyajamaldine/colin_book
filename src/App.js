@@ -63,7 +63,7 @@ function App() {
       <Route path='/Imaginary' element={<Imaginary/>} />
       <Route path='/happy' element={<Happy/>} /> 
       <Route path='/gods' element={<Gods/>} />
-      <Route path='/Flash' element={<Flashe/>} />
+      <Route path='/flasche' element={<Flashe/>} />
       <Route path='/Erdgeist' element={<Erdgeist/>} />
       <Route path='/Dreadful' element={<Dreadful/>} />
       <Route path='/Designs' element={<Designs/>} />

@@ -18,7 +18,7 @@ export default function Peau(){
             <div className='MediaContainer'>
                <img src={secondimg} alt=''/>
                <p className='image_desc'>
-               With unnatural strength, the last effort of ebbing life, he broke down the door.
+               With unnatural strength, the last effort of ebbing life, <br/> he broke down the door.
                </p>
             </div>
        </div>

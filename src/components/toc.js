@@ -50,133 +50,133 @@ export default function TOC(){
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'><span className='c'>c</span>1914</span></td>
-		<td colspan = '2'><a href = '?collection=designs'><span className='notWrappingSpan'>Designs</span></a></td>
+		<td colspan = '2'><Link to="/designs"><span className='notWrappingSpan'>Designs</span></Link></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1915</span></td>
-		<td><a href = '?collection=paques'><span className='notWrappingSpan'>Poèmes pour Pâques</span></a></td>
+		<td><Link to="/paques"><span className='notWrappingSpan'>Poèmes pour Pâques</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Lois Cendré</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1920</span></td>
-		<td><a href = '?collection=sphinx'><span className='notWrappingSpan'>The Sphinx</span></a></td>
+		<td><Link to="/sphinx"><span className='notWrappingSpan'>The Sphinx</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Oscar Wilde</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1920</span></td>
-		<td><a href = '?collection=carmen'><span className='notWrappingSpan'>Carmen</span></a></td>
+		<td><Link to="/carmen"><span className='notWrappingSpan'>Carmen</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Prosper Mérimée</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1920</span></td>
-		<td><a href = '?collection=erdgeist'><span className='notWrappingSpan'>Erdgeist</span></a></td>
+		<td><Link to="/erdgeist"><span className='notWrappingSpan'>Erdgeist</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Frank Wedekind</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'><span className='c'>c</span>1921</span></td>
-		<td><a href = '?collection=pandora'><span className='notWrappingSpan'>Die Büchse der Pandora</span></a></td>
+		<td><Link to="/pandora"><span className='notWrappingSpan'>Die Büchse der Pandora</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Frank Wedekind</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1922</span></td>
-		<td><a href = '?collection=salome'><span className='notWrappingSpan'>Salome</span></a></td>
+		<td><Link to="/salome"><span className='notWrappingSpan'>Salome</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Oscar Wilde</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1924</span></td>
-		<td><a href = '?collection=rache'><span className='notWrappingSpan'>Die Rache einer Frau</span></a></td>
+		<td><Link to="/rache"><span className='notWrappingSpan'>Die Rache einer Frau</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Barbey d’Aurevily</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1924</span></td>
-		<td><a href = '?collection=storck'><span className='notWrappingSpan'>Sebastian van Storck</span></a></td>
+		<td><Link to="/storck"><span className='notWrappingSpan'>Sebastian van Storck</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Walter Pater</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1925</span></td>
-		<td><a href = '?collection=tosca'><span className='notWrappingSpan'>La Tosca</span></a></td>
+		<td><Link to="/tosca"><span className='notWrappingSpan'>La Tosca</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Victorien Sardou</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1925</span></td>
-		<td><a href = '?collection=camelias'><span className='notWrappingSpan'>La Dame aux Camélias</span></a></td>
+		<td><Link to="/camelias"><span className='notWrappingSpan'>La Dame aux Camélias</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Alexandre Dumas</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1925</span></td>
-		<td><a href = '?collection=bowboy'><span className='notWrappingSpan'>The Blind Bow-Boy</span></a></td>
+		<td><Link to="/bowboy"><span className='notWrappingSpan'>The Blind Bow-Boy</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Carl Van Vechten</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1925</span></td>
-		<td><a href = '?collection=zauberflote'><span className='notWrappingSpan'>Die Zauberflöte</span></a></td>
+		<td><Link to="/zauberflote"><span className='notWrappingSpan'>Die Zauberflöte</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Wolfgang Mozart</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1925</span></td>
-		<td><a href = '?collection=anthony'><span className='notWrappingSpan'>La Tentation de Saint Antoine</span></a></td>
+		<td><Link to="/anthony"><span className='notWrappingSpan'>La Tentation de Saint Antoine</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Gustave Flaubert</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1927</span></td>
-		<td><a href = '?collection=skeletons'><span className='notWrappingSpan'>Red Skeletons</span></a></td>
+		<td><Link to="/skeletons"><span className='notWrappingSpan'>Red Skeletons</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Harry Crosby</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1928</span></td>
-		<td><a href = '?collection=usher'><span className='notWrappingSpan'>The Fall of the House of Usher</span></a></td>
+		<td><Link to="/usher"><span className='notWrappingSpan'>The Fall of the House of Usher</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Edgar Allen Poe</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1928</span></td>
-		<td><a href = '?collection=birthday'><span className='notWrappingSpan'>The Birthday of the Infanta</span></a></td>
+		<td><Link to="/birthday"><span className='notWrappingSpan'>The Birthday of the Infanta</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Oscar Wilde</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1928</span></td>
-		<td><a href = '?collection=lescaut'><span className='notWrappingSpan'>Manon Lescaut</span></a></td>
+		<td><Link to="/lescaut"><span className='notWrappingSpan'>Manon Lescaut</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Abbé Prévost</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1929</span></td>
-		<td><a href = '?collection=liaisons'><span className='notWrappingSpan'>Les Liaisons Dangereuses</span></a></td>
+		<td><Link to="/liaisons"><span className='notWrappingSpan'>Les Liaisons Dangereuses</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Choderlos de Laclos</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1929</span></td>
-		<td><a href = '?collection=dreadful'><span className='notWrappingSpan'>The City of Dreadful Night</span></a></td>
+		<td><Link to="/dreadful"><span className='notWrappingSpan'>The City of Dreadful Night</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>James Thomson</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'><span className='c'>c</span>1969</span></td>
-		<td><a href = '?collection=flasche'><span className='notWrappingSpan'>Der Mann auf der Flasche</span></a></td>
+		<td><Link to="/flasche"><span className='notWrappingSpan'>Der Mann auf der Flasche</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Gustave Meyrink</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'><span className='c'>c</span>1969</span></td>
-		<td colspan = '2'><a href = '?collection=cirque'><span className='notWrappingSpan'>Jeux de Cirque</span></a></td>
+		<td colspan = '2'><Link to="/cirque"><span className='notWrappingSpan'>Jeux de Cirque</span></Link></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>? ? ?</span></td>
-		<td><a href = '?collection=pieces'><span className='notWrappingSpan'>Pieces</span></a></td>
+		<td><Link to="/pieces"><span className='notWrappingSpan'>Pieces</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>JK Huysman</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>? ? ?</span></td>
-		<td><a href = '?collection=happy'><span className='notWrappingSpan'>The Happy Prince</span></a></td>
+		<td><Link to="/happy"><span className='notWrappingSpan'>The Happy Prince</span></Link></td>
 		<td className= 'notWrappingTD'><span className='notWrappingSpan'>Oscar Wilde</span></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>? ? ?</span></td>
-		<td colspan = '2'><a href = '?collection=portraits'><span className='notWrappingSpan'>Portraits</span></a></td>
+		<td colspan = '2'><Link to="/portraits"><span className='notWrappingSpan'>Portraits</span></Link></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>? ? ?</span></td>
-		<td colspan = '2'><a href = '?collection=imaginary'><span className='notWrappingSpan'>Imaginary Portraits</span></a></td>
+		<td colspan = '2'><Link to="/imaginary"><span className='notWrappingSpan'>Imaginary Portraits</span></Link></td>
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>? ? ?</span></td>
-		<td colspan = '2'><a href = '?collection=other'><span className='notWrappingSpan'>Other illustrations</span></a></td>
+		<td colspan = '2'><Link to="/other"><span className='notWrappingSpan'>Other illustrations</span></Link></td>
 	</tr>
 	<tr className= 'nofleur'>
 		<td colspan = '3' className= 'sec'>Appendices</td>

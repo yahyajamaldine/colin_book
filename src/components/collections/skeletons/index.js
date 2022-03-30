@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import  firstimg from "./images/1.png";
 import secondimg from "./images/2.png";
-import './index.css';
+import '../index.css';
 
 
 export default function Sekeltons(){

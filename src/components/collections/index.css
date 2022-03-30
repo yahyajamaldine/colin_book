@@ -17,10 +17,13 @@ body{
     flex-wrap: wrap;
 }
 .MediaContainer img{
-    width: 470px;
-    height: 450px;
+    width: 370px;
+    height: 460px;
     border-radius: 10px;
     margin: 5px;
+}
+.image_desc{
+    word-wrap: break-word;
 }
 .dictionary p{
     font-weight: bold;
@@ -28,6 +31,7 @@ body{
 }
 .dictionary_list li{
     font-size: 1.25rem;
+    list-style-type: none;
     margin: 1rem;
 }
 blockquote{
@@ -35,4 +39,8 @@ blockquote{
 }
 div .other{
  font-size: 1.25rem;
+}
+h1{
+    margin:0;
+    color:black;
 }
