@@ -34,7 +34,7 @@ export default function TOC(){
 	</tr>
 	<tr>
 		<td className= 'wrappingTD'><span className='wrappingSpan'>1920</span></td>
-		<td colspan = '2'><Link  to="/otherpoetry"><span className='notWrappingSpan'>Other poetry</span></Link></td>
+		<td colspan = '2'><Link  to="/other"><span className='notWrappingSpan'>Other poetry</span></Link></td>
 	</tr>
 	<tr className= 'nofleur'>
 		<td colspan = '3' className= 'sec'>Art</td>
