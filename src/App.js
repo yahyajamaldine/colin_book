@@ -57,7 +57,7 @@ function App() {
       <Route path='/Peau' element={<Peau/>} />
       <Route path='/paques' element={<Paques/>} />
       <Route path='/Pandora' element={<Pandora/>} />
-      <Route path='/Other' element={<Other/>} />
+      <Route path='/other' element={<Other/>} />
       <Route path='/Liaisons' element={<Liaisons/>} />
       <Route path='/Lescaut' element={<Lescaut/>} />
       <Route path='/Imaginary' element={<Imaginary/>} />
